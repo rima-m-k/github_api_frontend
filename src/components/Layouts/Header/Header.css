@@ -1,0 +1,13 @@
+.header__container {
+    margin: 0;
+    padding: 20px;
+    background-color: #0f0f0f; 
+    border: 0px solid #ddd;
+    color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header__container h1,
+.header__container p {
+    color: #fff; 
+}

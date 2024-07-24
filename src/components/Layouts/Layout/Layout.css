@@ -1,0 +1,9 @@
+.layout-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .layout-loading h3 {
+    margin: auto;
+  }

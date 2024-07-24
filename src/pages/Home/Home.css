@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home h1, .home form {
+    text-align: center; 
+}
+
+.search {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.search input {
+    width: 300px; 
+    height: 18px; 
+    padding: 10px; 
+    font-size: 16px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px 0 0 5px; 
+}
+
+.search button {
+    margin: 10px 0; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius : 0 5px 5px 0; 
+    background-color: #2a2a2b; 
+    color: #fff;
+    cursor: pointer; 
+}
+
+.search button:hover {
+    background-color: #1b1c1d; 
+}

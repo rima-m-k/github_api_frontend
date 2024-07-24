@@ -1,0 +1,39 @@
+.followers-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1em ;
+  }
+  
+  .follower-item {
+    
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .follower-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  .follower-header{
+   
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      
+  }
+  .followers-avatar{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
